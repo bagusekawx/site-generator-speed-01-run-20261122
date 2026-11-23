@@ -1,0 +1,6 @@
+[![make.fun · site-generator-speed-01-run-20261122](https://make.fun/badge/site-generator-speed-01-run-20261122.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+[![rank](https://make.fun/badge/site-generator-speed-01-run-20261122/bagusekawx/site-generator-speed-01-run-20261122/rank.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+[![reward](https://make.fun/badge/site-generator-speed-01-run-20261122/bagusekawx/site-generator-speed-01-run-20261122/reward.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+# Fast makefun-site drop-in
+
+A faster reimplementation of makefun-site 1.0.0's static site generator, byte-for-byte identical on every case: a rewritten Markdown lexer and inline renderer, memoized slugs, an index-based front-matter parser, and an array-joined template renderer with prototype-chain scopes. Locally ~3x faster than the house baseline on the practice set.
